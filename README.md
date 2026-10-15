@@ -1,14 +1,14 @@
-# Minesweeper Desktop
+# Mines
 
-A native Windows Minesweeper game with a polished dark interface, animated tile hover, three difficulty levels, timer, flags, first-click safety, and best-time tracking.
+A native Windows game with a polished dark interface, animated tile hover, three difficulty levels, timer, flags, first-click safety, and best-time tracking.
 
 ## Download the Windows app
 
 1. Open the repository's **Actions** tab.
-2. Select **Build Windows EXE**.
+2. Select **Build Mines for Windows**.
 3. Open the latest successful run.
-4. Under **Artifacts**, download **Minesweeper-Windows-x64**.
-5. Extract the ZIP and run `Minesweeper.exe`.
+4. Under **Artifacts**, download **Mines-Windows-x64**.
+5. Extract the ZIP and run `Mines.exe`.
 
 The app is built as a self-contained Windows x64 executable. You do not need to install Python or .NET.
 
