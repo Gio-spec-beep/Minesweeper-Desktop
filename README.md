@@ -2,6 +2,10 @@
 
 A native Windows game with a polished dark interface, animated tile hover, three difficulty levels, timer, flags, first-click safety, and best-time tracking.
 
+## Browser version
+
+Open [`index.html`](./index.html) in a browser to play the browser version. It includes Beginner, Intermediate, and Expert difficulties plus a guided lesson that teaches revealing squares, reading number clues, and flagging mines. It runs as a single HTML file with no install required.
+
 ## Download the Windows app
 
 1. Open the repository's **Actions** tab.
