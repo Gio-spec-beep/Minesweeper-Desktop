@@ -5,7 +5,7 @@ using System.Drawing.Drawing2D;
 using System.Linq;
 using System.Windows.Forms;
 
-namespace MinesweeperDesktop;
+namespace MinesDesktop;
 
 internal static class Program
 {
@@ -46,7 +46,7 @@ internal sealed class GameForm : Form
 
     public GameForm()
     {
-        Text = "Minesweeper";
+        Text = "Mines";
         ClientSize = new Size(820, 760);
         MinimumSize = new Size(620, 650);
         BackColor = bg;
@@ -91,8 +91,7 @@ internal sealed class GameForm : Form
         using var titleFont = new Font("Segoe UI Semibold", 25, FontStyle.Bold);
         using var subFont = new Font("Segoe UI", 10);
         using var smallBold = new Font("Segoe UI Semibold", 9, FontStyle.Bold);
-        using var labelFont = new Font("Segoe UI Semibold", 10, FontStyle.Bold);
-        DrawText(g, "MINESWEEPER", titleFont, Color.White, new Rectangle(24, 18, 330, 42), ContentAlignment.MiddleLeft);
+        DrawText(g, "MINES", titleFont, Color.White, new Rectangle(24, 18, 330, 42), ContentAlignment.MiddleLeft);
         DrawText(g, "A little brain workout.", subFont, Color.FromArgb(145, 160, 185), new Rectangle(26, 59, 320, 22), ContentAlignment.MiddleLeft);
 
         int top = 100;
