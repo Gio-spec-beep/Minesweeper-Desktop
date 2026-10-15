@@ -4,7 +4,7 @@ A native Windows game with a polished dark interface, animated tile hover, three
 
 ## Browser version
 
-Open [`index.html`](./index.html) in a browser to play the browser version. It includes Beginner, Intermediate, and Expert difficulties plus a guided lesson that teaches revealing squares, reading number clues, and flagging mines. It runs as a single HTML file with no install required.
+Open [`index.html`](./index.html) in a browser to play the browser version. It includes Beginner, Intermediate, and Expert difficulties. Turn on Guided mode to play a full normal game with live explanations of number clues and an optional hint button that highlights logically deduced safe squares or mines. It runs as a single HTML file with no install required.
 
 ## Download the Windows app
 
